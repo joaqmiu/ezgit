@@ -1,6 +1,9 @@
 #!/bin/bash
 
+echo -e "Apagando sessão existente..."
 rm -r ~/.ssh
+
+sleep 2
 
 read -p "Insira seu nome de usuário do GitHub: " username
 git config --global user.name "$username"
