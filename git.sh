@@ -22,4 +22,4 @@ read -p "Pressione Enter após adicionar a chave SSH à sua conta do GitHub..."
 
 ssh -T git@github.com
 
-echo "Conexão estabelecida com sua conta do GitHub! Fechando o script..."
+echo "Conexão estabelecida! Fechando o script..."
