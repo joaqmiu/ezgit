@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -r ~/.ssh
+
 read -p "Insira seu nome de usuário do GitHub: " username
 git config --global user.name "$username"
 
