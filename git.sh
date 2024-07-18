@@ -18,8 +18,4 @@ cat ~/.ssh/id_rsa.pub
 
 ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
 
-read -p "Pressione Enter após adicionar a chave SSH à sua conta do GitHub..."
-
-ssh -T git@github.com
-
-echo "Conexão estabelecida! Fechando o script..."
+echo " "
